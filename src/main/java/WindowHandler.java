@@ -24,6 +24,8 @@ public class WindowHandler {
             if (!Parent.equalsIgnoreCase(i) && count == 2){
                 driver.switchTo().window(i);
                 System.out.println(i);
+                System.out.println(i);
+                System.out.println(i);
             }
         }
 
